@@ -1,0 +1,334 @@
+/*
+Theme Name: oleville
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0-wpcom
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: oleville
+Domain Path: /languages/
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+ oleville is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+.oleville-slider.soliloquy-container {
+	z-index:3;
+}
+
+.soliloquy-container .soliloquy-content {
+	position: absolute;
+	top: 40px;
+	right: 50px;
+	width: 35%;
+}
+
+.oleville-slider.soliloquy-container .soliloquy-caption {
+	position:relative;
+	width: 100%;
+	bottom: auto;
+	left: auto;
+	font-family: "Raleway";
+}
+
+.oleville-slider.soliloquy-container .read-more {
+	float: right;
+	margin-top: 30px;
+}
+.oleville-slider.soliloquy-container .read-more a {
+	background-color: #336699;
+	color: #FFFFFF;
+	padding: 13px 30px;
+	font-size:14px;
+}
+
+.oleville-slider.soliloquy-container .read-more a:hover {
+	background-color: #274E75;
+}
+
+.oleville-slider.soliloquy-container .soliloquy-caption .soliloquy-caption-inside {
+	text-shadow:none;
+}
+
+.oleville-slider .soliloquy-title {
+	font-size: 35px;
+	padding-bottom: 20px;	
+	font-weight:bold;
+}
+
+.gce-list {
+	margin:0;
+	padding:0;
+}
+
+.gce-page-list .gce-list .gce-list-title {
+font-weight: normal;
+background-color: rgb(33, 54, 68);
+text-align: center;
+padding: 5px;
+color: #00CCFF;
+}
+
+.gce-page-list .gce-list .gce-list-event {
+background-color: transparent;
+line-height:1em;
+}
+
+.gce-page-list .gce-list .time {
+font-size:12px;
+line-height: 1em;
+}
+
+.gce-list ul li {
+	padding: 5px 10px;
+}
+
+.gce-list li {
+	list-style-type: none;
+}
+
+.gce-widget-list .gce-list div span {
+font-size: 10px;
+vertical-align: middle;
+}
+
+.rpwe-block ul {
+margin: 0;
+list-style: none;
+padding: 10px;
+}
+
+.front .rpwe-alignright {
+margin-top: 60px;
+}
+
+.rpwe-alignright {
+float: right;
+padding:5px;
+}
+
+.rpwe-block h3 {
+clear: none;
+font-size: 24px;
+line-height:1em;
+}
+
+.rpwe-block a {
+	color: #DB9E00;
+	text-decoration: none;
+}
+
+.rpwe-block a:hover {
+	color: #A27500;
+}
+
+.rpwe-block h3 a{
+text-decoration: none;
+font-weight: bold;
+}
+
+.rpwe-time {
+color: #8F8F8F;
+font-size: 12px;
+line-height: 1em;
+}
+
+.rpwe-block li {
+padding: 15px 0;
+}
+
+.rpwe-block li:first-of-type
+{
+	padding-top:0px;
+}
+
+.rpwe-summary {
+font-size: 13px;
+}
+
+.member-display .member-name {
+	clear:none;
+	font-weight:bold;
+}
+
+.member-display .member-info {
+	width:435px;
+	float:left;
+	text-align:center;
+	padding-left: 10px;
+}
+
+.member-display .member-info a{
+	color:#193866;
+	text-decoration: none;
+}
+
+#meet-members .rpwe-alignright {
+	margin:0;
+	padding:0!important;
+	border: none;
+}
+
+.member-display {
+	padding: 10px;
+}
+
+.member-display a.more-link {
+	margin: auto;
+	text-align:center;
+	display:block!important;
+	width:130px;
+	padding:5px;
+	color:#FFF;
+	margin-top: 5px;
+}
+
+.member-display .bio {
+	width: 270px;
+	font-size: 13px;
+	padding: 5px;
+}
+
+.member-display a.thumbnail {
+	float:right;
+	display:block;
+	padding:5px;
+	height:160px;
+	background-color: #FFF;
+	position:relative;
+}
+
+.member-display a.thumbnail .position {
+	position: absolute;
+	bottom: 5px;
+	width: 150px;
+	font-size: 12px;
+	color: #FFF;
+	background: rgba(0, 0, 0, 0.37);
+	text-align: center;
+	font-weight: bold;
+}
+
+.branch #branch-left .rpwe_widget:after {
+	content: '';
+	display: table;
+	clear:both
+}
+
+.branch-block {
+	display:block;
+		float: left;
+}
+.member-display a {
+	text-decoraton: none;
+}
+
+.branch-block a {
+	display: block;
+	height: 160px;
+	width: 160px;
+	text-align: center;
+	color: rgba(255,255,255, .7);
+	font-size: 20px;
+	padding-top: 20px;
+	line-height: 1em;
+	text-decoration:none;
+}
+
+.branch-block a span {
+	display: block;
+	font-size: 65px;
+	font-weight: bold;
+	color: #fff;
+	line-height: .9em;
+	padding-top: 8px;
+}
+.branch-block .member-name a {
+color: #333;
+font-weight: normal;
+font-size: 20px;
+}
+
+.branch #branch-left .gce-list li {
+	float:left;
+	width: 25%;
+	padding: 7px;
+	border-left: 1px #CCC solid;
+}
+
+.branch #branch-left .gce-list li .gce-list-event {
+	line-height: 1em;
+}
+
+.branch #branch-left .gce-list li:first-of-type {
+	border:none;
+}
+
+.branch #branch-left .gce-widget-list:after {
+	clear:both;
+	content: '';
+	display: table
+}
+.branch #branch-left .widget_gce_widget .read-more {
+	clear:both;
+	margin-top: 20px;
+}
+.branch #branch-left .widget_gce_widget .read-more a {
+	display:block;
+	width: 135px;
+	margin: auto;
+	padding: 10px;
+	background: #336699;
+	text-decoration: none;
+	color: #FFF;
+}
+
+.branch #front-recent .rpwe-summary {
+	font-size: 14px;
+}
+
+.branch #front-recent {
+	clear:both;
+}
+
+.branch #front-recent .widget-title {
+	background: #0099cc;
+	background: -moz-linear-gradient(top, #0099cc 0%, #0075b5 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0099cc), color-stop(100%,#0075b5));
+	background: -webkit-linear-gradient(top, #0099cc 0%,#0075b5 100%);
+	background: -o-linear-gradient(top, #0099cc 0%,#0075b5 100%);
+	background: -ms-linear-gradient(top, #0099cc 0%,#0075b5 100%);
+	background: linear-gradient(to bottom, #0099cc 0%,#0075b5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0099cc', endColorstr='#0075b5',GradientType=0 );
+	width: 900px;
+	margin-left: -10px;
+	padding: 5px 10px;
+	color: #FFF;
+}
+
+.branch #front-recent .rpwe-block h3 a {
+	color: #CC6600;
+}
+
+.rpwe-thumb {
+	border: none!important;
+}
+
+.oleville-slider #soliloquy-4693 .soliloquy-item-1 .read-more,
+.oleville-slider #soliloquy-4693 .soliloquy-item-2 .read-more,
+.oleville-slider #soliloquy-72 .soliloquy-item-1 .read-more,
+.oleville-slider #soliloquy-72 .soliloquy-item-2 .read-more,
+.oleville-slider #soliloquy-72 .soliloquy-item-3 .read-more,
+.oleville-slider #soliloquy-10 .soliloquy-item-1 .read-more,
+.oleville-slider #soliloquy-10 .soliloquy-item-2 .read-more  {
+	display:none;
+}

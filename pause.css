@@ -1,0 +1,118 @@
+/*
+Theme Name: Oleville Testing
+Theme URI: http://underscores.me/
+Author: John Bruer and Drew Volz
+Author URI: http://www.bruerstudios.com
+Description: Reworked Theme for St. Olaf College's Student Government Association
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: oleville-test
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Oleville Testing is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Reset
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1.0 Reset
+--------------------------------------------------------------*/
+.order-menu {
+	padding:10px;
+}
+
+.order-menu .menu-section {
+	border-bottom:4px solid #F8b800;
+	line-height:1em;
+}
+
+.wppizza-article-info h2.wppizza-article-title {
+	color: #444444;
+	text-transform: none;
+	font-size: 24px;
+	font-family: "Raleway";
+}
+
+.wppizza-article {
+	border-bottom:#CCC dotted 1px;
+}
+
+.wppizza-article-price {
+	padding: 3px 15px;
+	margin: 0 2px;
+}
+.wppizza-article-price:hover {
+	background: #C3E0EB;
+}
+.wppizza-article-price>span:hover {
+	text-decoration:none;
+}
+.wppizza-article-price-lbl:hover {
+	text-decoration: none;
+}
+
+.wppizza-cart-info {
+	left:0;
+	right:0;
+}
+
+.wppizza-cart-info>span {
+	padding: 0 5px;
+}
+
+.wppizza-cart-info>span.wppizza-cart-total-items {
+	display:none;
+}
+
+.wppizza-cart-button {
+	margin: 5px 0 0;
+}
+
+.wppizza-cart-button input {
+	width:100%;
+	font-size:24px;
+	margin:0;
+	padding:7px!important;
+}
+
+li.wppizza-order-total-items {
+	display: none;
+}
+
+tr.wppizza-order-total-items {
+	display: none;
+}
+
+tr.wppizza-order-pickup {
+	display: none;
+}
+
+#wppizza-send-order>fieldset>input, #wppizza-send-order>fieldset>select, #wppizza-send-order>fieldset>textarea {
+	padding: 3px 5px;
+}
+#wppizza-send-order>fieldset>input.submit {
+	font-size: 24px;
+	padding: 10px;
+	margin-top:20px;
+}
+.wppizza-confirm-button>.wppizza-ordernow {
+	font-size: 24px;
+	padding: 10px;
+	margin-top:20px;
+	width:100%;
+	float:none;
+}
